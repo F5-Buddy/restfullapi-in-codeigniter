@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond $1 !^(index\.php|images|assets|css|fonts|js|img|robots\.txt)
+RewriteRule ^(.*)$ /restfull/index.php?/$1 [L]
